@@ -1,0 +1,9 @@
+.featured-post{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+.featured-post h2{
+    margin: 10px;
+}

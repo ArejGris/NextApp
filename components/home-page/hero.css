@@ -1,0 +1,27 @@
+.main-home{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(85, 84, 84);
+}
+.main-home .img{
+    background-color: lightgrey;
+    border-radius: 100%;
+    height: 300px;
+    width: 300px;
+    overflow: hidden;
+}
+.main-home .img img{
+    z-index: -1;
+}
+.main-home h1{
+    color: lightgrey;
+    font-size: 50px;
+}
+p{
+    color: lightgrey;
+    width: 40%;
+    text-align: center;
+    margin: 10px auto;
+}

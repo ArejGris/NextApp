@@ -1,0 +1,24 @@
+.one-post{
+    background-color: rgb(175, 174, 174);
+
+}
+.one-post a{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.one-post a .image{
+    flex: 1;
+}
+.one-post a .content{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    place-items: center;
+    color: white;
+    flex: 1;
+    max-height:150px;
+}
+.one-post .excerpt{
+    text-align: center;
+}
