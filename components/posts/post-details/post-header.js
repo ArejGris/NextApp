@@ -1,3 +1,4 @@
+'use client'
 import Image from "next/image";
 import './post-header.css'
 const PostHeader = ({title,image}) => {

@@ -1,5 +1,6 @@
 ---
 title: 'Getting started with next'
+num: 1
 date: '2023-3-3'
 image: '/embroidery.png'
 excerpt: 'next is react framwork for production it makes building fullstack React apps sites a breeze and ships with built in SSR'

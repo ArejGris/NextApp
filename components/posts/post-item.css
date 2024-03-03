@@ -1,23 +1,37 @@
 .one-post{
-    background-color: rgb(175, 174, 174);
+    
+    background-color: rgb(85, 84, 84);
+    border-radius: 10px;
 
 }
+
 .one-post a{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
-.one-post a .image{
-    flex: 1;
+.one-post a .image {
+    display: flex;
+    justify-content: center;
+}
+.one-post a .image .img{
+    border-radius: 10px;
+    width: 90%;
+    max-height: 150px;
+}
+.one-post a .container{
+    padding: 20px;
 }
 .one-post a .content{
-    display: grid;
-    grid-template-columns: repeat(1,1fr);
+    padding: 10px;
+    padding-top: 20px;
     place-items: center;
-    color: white;
-    flex: 1;
-    max-height:150px;
+    color: rgb(211, 209, 209);
+}
+.one-post a .content h3{
+    color: black;
+    font-weight: 900;
 }
 .one-post .excerpt{
     text-align: center;

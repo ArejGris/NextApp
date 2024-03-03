@@ -1,6 +1,6 @@
 'use client'
 import './notification.css'
-const Notification = ({text ,status}) => {
+export const Notification = ({text ,status}) => {
   
     return ( 
     <div className='not'>
